@@ -28,9 +28,14 @@
             Console.WriteLine("The length of line:" + length1);
             Console.WriteLine("The length of line2:" + length2);
 
+
             if (length1 == length2)
             {
                 Console.WriteLine("The two lines are equal");
+            }
+            else if (length1 > length2)
+            {
+                Console.WriteLine("Line 1 is greater than Line 2.");
             }
             else
             {
